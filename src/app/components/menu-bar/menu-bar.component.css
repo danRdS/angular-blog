@@ -1,8 +1,23 @@
 .container__menu-bar > ul {
     display: flex;
+    flex-direction: row;
+    cursor: pointer;
 }
 
 .container__menu-bar > ul > li {
     margin-right: 20px;
     list-style: none;
+    padding: 4px 8px;
+    min-width: 90px;
+    text-align: center;
+}
+
+.container__menu-bar > ul > li > a {
+    background-color: transparent;
+}
+
+.container__menu-bar > ul > li:hover{
+    text-decoration: underline solid 1.1px;
+    background-color: #94949422;
+    border-radius: 20px;
 }

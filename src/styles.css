@@ -8,6 +8,11 @@
     font-family: 'Segoe UI';
 }
 
+*::selection{
+    background-color: #f00;
+    color: #e4e4e4;
+}
+
 a {
     text-decoration: none;
 }
